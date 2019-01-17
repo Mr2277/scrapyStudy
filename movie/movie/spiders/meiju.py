@@ -4,8 +4,8 @@ import scrapy
 
 class MeijuSpider(scrapy.Spider):
     name = 'meiju'
-    allowed_domains = ['meijutt.com']
-    start_urls = ['http://meijutt.com/']
+    allowed_domains = ['meijjutt.com']
+    start_urls = ['http://meijjutt.com/']
 
     def parse(self, response):
         pass

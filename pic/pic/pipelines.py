@@ -6,9 +6,6 @@
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 
-class MoviePipeline(object):
+class PicPipeline(object):
     def process_item(self, item, spider):
-        with open("my_meiju.txt", 'a') as fp:
-            print(item['name'])
-            #fp.write(item['name'].encode("utf8") + '\n')
         return item
